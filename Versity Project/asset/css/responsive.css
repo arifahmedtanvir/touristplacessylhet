@@ -1,0 +1,83 @@
+ 
+/* Medium Layout: 1280px. 
+
+
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+
+	
+	
+	
+}
+
+
+/* Tablet Layout: 768px. 
+
+Standard Size: 750px
+Checking Size: 800px
+
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.boundary{
+	width:760px;
+	margin:0 auto;
+}
+.logo img{
+	 padding-top:5px;
+}
+.menu ul li a{
+	      display:block;
+		  color:black;
+		  font-size:15px;
+		  padding:15px 15px;
+}
+	
+	
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (min-width: 520px)and (max-width: 767px) {
+	
+	.boundary{
+	width:515px;
+	margin:0 auto;
+}
+.logo img{
+	 width:80%;
+	 padding-top:2px;
+}
+.menu{
+
+}
+.menu ul li a{
+	      display:block;
+		  color:black;
+		  font-size:13px;
+		  padding:10px 2px;
+}
+	
+}
+
+
+
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}  
+  
+  
+  
+ 
